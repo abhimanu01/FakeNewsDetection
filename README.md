@@ -1,13 +1,9 @@
 AI-Based Fake News Detection System
-
 Setup Instructions (Windows CMD)
-
 Open Command Prompt (cmd) and navigate to the project folder:
 cd "C:\Users\Abhishek M\Downloads\FakeNewsDetection"
-
 Create a Virtual Environment:
 python -m venv env
-
 Activate the Virtual Environment:
 env\Scripts\activate
 
@@ -17,19 +13,19 @@ Install Dependencies:
 pip install pandas scikit-learn fastapi uvicorn pydantic
 
 Or, if you have a requirements file:
+
 pip install -r requirements.txt
 Running the Application
-
 Train the Machine Learning Model (First Time Only):
 python train.py
 
 This command will:
+
 Load and preprocess the Indian Fake and Real News dataset.
 Train the Logistic Regression model using TF-IDF features.
 Generate the following files:
 model.pkl
 vectorizer.pkl
-
 Start the FastAPI Backend Server:
 uvicorn app:app --reload
 
