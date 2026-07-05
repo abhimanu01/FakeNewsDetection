@@ -1,9 +1,12 @@
 AI-Based Fake News Detection System
 Setup Instructions (Windows CMD)
+
 Open Command Prompt (cmd) and navigate to the project folder:
 cd "C:\Users\Abhishek M\Downloads\FakeNewsDetection"
+
 Create a Virtual Environment:
 python -m venv env
+
 Activate the Virtual Environment:
 env\Scripts\activate
 
